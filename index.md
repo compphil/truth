@@ -281,6 +281,9 @@ This is the meat of _ArgRank_—essentially _PageRank_ on the NLI-mediated argum
 
 Before moving on, however, we would like to leave the reader with a challenge. The aim of this exercise is to illustrate the significance of the progress we have made so far in an experiential way, by prompting personal attempts at undermining a _Cogito_-like postulate. More concretely, the reader is invited to _try making a coherent case against the claim that the true nature of truth-seeking lies in the existence of coherent challengers_. Later on, in _Chapter III_, we will develop a formal language to help us describe the strength of such postulates more broadly.
 
+<div class='epigraph'><blockquote><p>At last one evening–but what a long time it had been–a little trembling light appeared in the lens of the telescope, a weak light which seemed to flicker on the point of death but which must be, if you worked out the distance, of a respectable size.</p>
+<div>Dino Buzzati,<cite> The Tartar Steppe</cite></div></blockquote></div>
+
 ## Ch. II, Deliberative Arms Race
 
 ### Brief Review of Language Models
