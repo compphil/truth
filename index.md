@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: default
 title: Truth
 description: The Chronicles of Computation, Vol. I
 ---
+
+# Truth
 
 [The Chronicles of Computation](https://thechronicom.github.io), Vol. I
 
@@ -102,7 +104,7 @@ In this final chapter, we attempt to gauge the feasibility of the applications d
 Finally, we zoom out of object-level technicalities and focus instead on concrete ways in which readers can engage more actively with the present volume, as well as with upcoming ones.
 
 1. [Future Work](#future-work)
-2. [Evergreen Discussion](#evergreen-discussion)
+<!-- 2. [Evergreen Discussion](#evergreen-discussion) -->
 3. [The Chronicler Apprenticeship](#the-chronicler-apprenticeship)
 
 ## Acknowledgements
@@ -115,7 +117,7 @@ Paul Bricman would like to thank the [Long-Term Future Fund](https://funds.effec
 
 ### The Kaleidoscope of Reasonableness
 
-Ask a scholar of pure mathematics, computer science, or formal logic what makes an instance of argumentation valid, and they will likely highlight the relevance of making sure that the conclusion follows logically from the premises for each individual reasoning step. More often than not, this implies relying on a host of approved types of inference (e.g. [modus ponens](https://en.wikipedia.org/wiki/Modus_ponens)), while making sure to steer clear of degenerate ones (i.e. fallacies). This conception of reasonableness is often referred to as "geometrical," due to its implicit call for only building on solid premises and constructing arguments using an idealized set of operations.{% include marginfigure.html id='straightedge' url='/assets/img/pentagon.gif' description='[Straightedge and compass constructions](https://en.wikipedia.org/wiki/Straightedge_and_compass_construction) involve the challenging creation of varied shapes using a limited set of legal moves—here, a pentagon.'%}
+Ask a scholar of pure mathematics, computer science, or formal logic what makes an instance of argumentation valid, and they will likely highlight the relevance of making sure that the conclusion follows logically from the premises for each individual reasoning step. More often than not, this implies relying on a host of approved types of inference (e.g. modus ponens), while making sure to steer clear of degenerate ones (i.e. fallacies). This conception of reasonableness is often referred to as "geometrical," due to its implicit call for only building on solid premises and constructing arguments using an idealized set of operations.{% include marginfigure.html id='straightedge' url='/assets/img/pentagon.gif' description='[Straightedge and compass constructions](https://en.wikipedia.org/wiki/Straightedge_and_compass_construction) involve the challenging creation of varied shapes using a limited set of legal moves—here, a pentagon.'%}
 
 Ask a scholar of argumentation theory the same question, and—following a cursory smile indicating they have long been waiting for this—they will likely not hesitate to point out that there have been multiple prominent schools of thought over time which have advocated different, often incompatible, conceptions of reasonableness. Each one is backed by a different rationale, has its own features and shortcomings, and has emerged in a different cultural setting, often separated by thousands of years and kilometers. Let us briefly sample this kaleidoscope of conceptions.
 
@@ -913,22 +915,22 @@ As children delight themselves in grappling with demanding puzzles, there is sca
 <div class='epigraph'><blockquote><p>With an inked brush he marked everything with its name: table, chair, clock, door, wall, bed, pan. He went to the corral and marked the animals and plants: cow, goat, pig, hen, cassava, caladium, banana. Little by little, studying the infinite possibilities of a loss of memory, he realized that the day might come when things would be recognized by their inscriptions but that no one would remember their use. Then he was more explicit. The sign that he hung on the neck of the cow was an exemplary proof of the way in which the inhabitants of Macondo were prepared to fight against loss of memory: This is the cow. She must be milked every morning so that she will produce milk, and the milk must be boiled in order to be mixed with coffee to make coffee and milk. Thus they went on living in a reality that was slipping away, momentarily captured by words, but which would escape irremediably when they forgot the values of the written letters. [...] Then he understood. He opened the suitcase crammed with indecipherable objects and from among them he took out a little case with many flasks. He gave José Arcadio Buendía a drink of a gentle color and the light went on in his memory. His eyes became moist from weeping even before he noticed himself in an absurd living room where objects were labeled and before he was ashamed of the solemn nonsense written on the walls, and even before he recognized the newcomer with a dazzling glow of joy.</p>
 <div>Gabriel García Márquez,<cite> One Hundred Years of Solitude</cite></div></blockquote></div>
 
-However, much remains to be done. Furthering this enterprise in a satisfactory manner requires the boldness and ingenuity of aspiring researchers with diverse backgrounds. For a taste of this much-needed variety, one might refer to [the tentative titles of upcoming volumes](https://thechronicom.github.io), although—as this first volume so clearly demonstrated—each of those topics is woven into a dense interdisciplinary fabric, with tight links to fields driven by radically different motivations and, frankly, cultures. Besides, this first volume has also demonstrated that researchers with varied levels of experience can each provide valuable input, from students all the way to professors. Aspiring researchers interested in contributing to this overarching endeavor might benefit from the mentorship program described in the final section. Additionally, readers intrigued by the alignment problem more broadly might also benefit from the [online resources](https://80000hours.org/problem-profiles/artificial-intelligence/) and [free career consulting](https://80000hours.org/speak-with-us/?int_campaign=2021-08__primary-navigation) offered by the non-profit [80,000 Hours](https://80000hours.org/).
+However, much remains to be done. Furthering this enterprise in a satisfactory manner requires the boldness and ingenuity of aspiring researchers with diverse backgrounds. For a taste of this much-needed variety, one might refer to [the tentative titles of upcoming volumes](https://thechronicom.github.io), although—as this first volume so clearly demonstrated—each of those topics is woven into a dense interdisciplinary fabric, with tight links to fields driven by radically different motivations and, frankly, cultures. Besides, this first volume has also demonstrated that researchers with varied levels of experience can each provide valuable input, from students all the way to professors. Aspiring researchers interested in contributing to this overarching endeavor might benefit from the mentorship program described in the following section. Additionally, readers intrigued by the alignment problem more broadly might also benefit from the [online resources](https://80000hours.org/problem-profiles/artificial-intelligence/) and [free career consulting](https://80000hours.org/speak-with-us/?int_campaign=2021-08__primary-navigation) offered by the non-profit [80,000 Hours](https://80000hours.org/).
 
 <div class='epigraph'><blockquote><p>80,000 Hours provides research and support to help students and graduates switch into careers that effectively tackle the world’s most pressing problems. [...] To learn more about why we think your choice of career is the biggest ethical decision you’ll ever make, and why we think you can probably have a lot more impact with your career, start here.</p>
 <div>80,000 Hours Team,<cite> <a href="https://80000hours.org/about/">About Us</a></cite></div></blockquote></div>
 
 Besides researchers, the current work would have hardly been possible without the financial and computational resources necessary for the kind of ["blue skies"](https://en.wikipedia.org/wiki/Blue_skies_research) and ["derisking"](https://notes.benjaminreinhardt.com/DARPA_provides_a_derisking_role_for_people_in_other_organizations) research we have undertaken. We are considering the symbolic sale of related artifacts (e.g. paperback versions of the volumes) to make the effort more sustainable, although the incentives typically associated with such practices tend to detract and distract from meaningful work.{% include sidenote.html id="mn-cc" note='Besides, there might be an awkward interference with the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license which we decided to adopt for the present work, which allows anybody to "remix, transform, and build upon the material for any purpose, even commercially."'%} Given this, we are keeping our options open for now, and so ask entities—individuals and organizations alike—who resonate with this enterprise and would like to support it, to reach out privately. That way, we can quickly figure out the simplest legal means of moving financial or computational resources around.
 
-### Evergreen Discussion
+<!-- ### Evergreen Discussion -->
 
-By virtue of having made it to the end of this artifact, you are ideally positioned to submit a brief review, in order to inform the creation of upcoming volumes and help subsequent readers budget their time wisely. If you are considering such a contribution, please submit it through the [Goodreads]() listing of the present volume.
+<!-- By virtue of having made it to the end of this artifact, you are ideally positioned to submit a brief review, in order to inform the creation of upcoming volumes and help subsequent readers budget their time wisely. If you are considering such a contribution, please submit it through the [Goodreads]() listing of the present volume. -->
 
-Additionally, if you have inquiries regarding the topics addressed in this work, do not hesitate to pose them as questions on the same [Goodreads]() listing, where the team will reply asynchronously, availability permitting. Indeed, other readers are likely to have inquiries similar to yours, so there is value to breaking the ice.
+<!-- Additionally, if you have inquiries regarding the topics addressed in this work, do not hesitate to pose them as questions on the same [Goodreads]() listing, where the team will reply asynchronously, availability permitting. Indeed, other readers are likely to have inquiries similar to yours, so there is value to breaking the ice. -->
 
-In addition, thoughtful criticism of the ideas proposed in this volume is welcome (see _Chapter IV_). Such critiques could be communicated through e.g. essays published on a third-party platform, and are likely to be responded to by means of new sections of the volume. If building on this work in your own, please cite it as:
+<!-- In addition, thoughtful criticism of the ideas proposed in this volume is welcome (see _Chapter IV_). Such critiques could be communicated through e.g. essays published on a third-party platform, and are likely to be responded to by means of new sections of the volume. If building on this work in your own, please cite it as: -->
 
-`*bibtex citation goes here*`
+<!-- `*bibtex citation goes here*` -->
 
 ### The Chronicler Apprenticeship
 
@@ -936,7 +938,7 @@ In an attempt to promote efforts directed at operationalizing fundamental philos
 
 In order to apply, please email [paulbricman@protonmail.com](mailto:paulbricman@protonmail.com) with the subject _The Chronicler Apprenticeship Application_, and include the following information: (1) an overview of your career trajectory (i.e. background and future plans), (2) an overview of experience you deem relevant (e.g. past papers, projects, essays, etc.), and (3) an overview of how you think the mentorship program might benefit you. Expect a brief interview before a decision on availability.
 
-There are no constraints related to professional experience, country of residence, writing proficiency, or web design skills. The program is not paid (on either side), though fruitful mentorship would naturally lead to advice on obtaining funding for related work. Aspiring philosophers, mathematicians, engineers, artists, and combinations thereof are all welcome.
+There are no constraints related to professional experience or country of residence. The program is not paid (on either side), though fruitful mentorship would naturally lead to advice on obtaining funding for related work. Aspiring philosophers, mathematicians, engineers, artists, and combinations thereof are all welcome.
 
-<div class='epigraph'><blockquote><p>And in believing came a sudden calm. I tucked the coin into my skirt and crossed to the writing desk beneath the window. I found a scrap of half-used paper and smoothed it against the desktop. I paused for a moment, gathering every speck of my dizzy, drunken belief, then took up the pen and wrote:</p><p>The Door opens. </p>
+<div class='epigraph'><blockquote><p>Perhaps I keep writing because I was raised in a world where words have power, where curves and spirals of ink adorn sails and skin, where a sufficiently talented word-worker might reach out and remake her world. Perhaps I cannot believe words are entirely powerless, even here.</p>
 <div>Alix E. Harrow,<cite> The Ten Thousand Doors of January</cite></div></blockquote></div>
