@@ -945,7 +945,7 @@ Besides researchers, the current work would have hardly been possible without th
     <td style="line-height: 1.5 !important; padding: 0.5em;">Organizes online event where a tool is <a href="https://drive.google.com/file/d/1xvNfRdmlQI2Z67E0HY8rzS0TdPWqs5tq/view?usp=sharing"><u>presented</u></a> that is to later <a href="https://www.youtube.com/watch?v=rDYNGjEe1fA"><u>evolve</u></a> and directly inform simulator theory.</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap;">Jan & July 2022</td>
+    <td style="white-space: nowrap;">Jan & Jul 2022</td>
     <td style="line-height: 1.5 !important; padding: 0.5em;">Conducts <a href="https://web.archive.org/web/20220128060538/https://paulbricman.com/thoughtware/oneironomicon"><u>several</u></a> <a href="https://web.archive.org/web/20220702104914/https://paulbricman.com/thoughtware/deontic-dipoles"><u>early experiments</u></a> involving language models, reinforcement learning, and natural language inference.</td>
   </tr>
   <tr>
