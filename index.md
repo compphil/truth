@@ -950,7 +950,7 @@ Besides researchers, the current work would have hardly been possible without th
   </tr>
   <tr>
     <td style="white-space: nowrap;">Nov 2022</td>
-    <td style="line-height: 1.5 !important; padding: 0.5em;">Starts implementing <i>ArgRank</i>, training <i>DebateGPT</i>, and sketching bounded defensibility following a fellowship at <a href="https://www.alignmentforum.org/posts/5uiQkyKdejX3aEHLM/how-to-diversify-conceptual-alignment-the-model-behind#Some_Concrete_Details"><u>Conjecture</u></a>, secures grant.</td>
+    <td style="line-height: 1.5 !important; padding: 0.5em;">Starts working on and <a href="https://drive.google.com/file/d/1FFnt-EgN48Y-eZUuByX5UVp5yQt4UWDs/view?usp=sharing"><u>writing up</u></a> <i>ArgRank</i>, <i>DebateGPT</i>, and bounded defensibility, following fellowship at <a href="https://www.alignmentforum.org/posts/5uiQkyKdejX3aEHLM/how-to-diversify-conceptual-alignment-the-model-behind#Some_Concrete_Details"><u>Conjecture</u></a>, secures grant.</td>
   </tr>
   <tr>
     <td style="white-space: nowrap;">Mar 2023</td>
