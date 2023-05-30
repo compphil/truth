@@ -8,7 +8,7 @@ description: Elements of Computational Philosophy, Vol. I
 
 [Elements of Computational Philosophy](/), Vol. I
 
-By Paul Bricman,{% include sidenote.html id="mn-paulbio" note='Correspondence at [paulbricman@protonmail.com](mailto:paulbricman@protonmail.com)'%} Elfia Bezou-Vrakatseli,{% include sidenote.html id="mn-elfiabio" note='Elfia\'s bio.'%} Thomas Feeney,{% include sidenote.html id="mn-elfiabio" note='Tom\'s bio.'%} and Yimeng Xie.{% include sidenote.html id="mn-elfiabio" note='Yimeng\'s bio.'%}
+By [Paul Bricman](https://paulbricman.com/),{% include sidenote.html id="mn-paulbio" note='Correspondence at [paulbricman@protonmail.com](mailto:paulbricman@protonmail.com).'%} [Elfia Bezou-Vrakatseli](https://safeandtrustedai.org/person/elfia-bezou-vrakatseli/), [Thomas Feeney](https://cas.stthomas.edu/departments/faculty/thomas-feeney/), and [Yimeng Xie](https://ca.linkedin.com/in/yimeng-xie-381382213).
 
 <div class="frame glow-medium" id="summaryframe">
   <p><b><i>Fig. Personalized overview.</i></b> </p>
@@ -931,8 +931,6 @@ Besides researchers, the current work would have hardly been possible without th
 
 <div class="frame" style="padding-bottom: 0.5rem !important">
   <p><b><i>Note. Timeline.</i></b></p>
-  <p>A chronology of previous developments leading up to the present work.</p>
-  <br/>
   <center>
   <table style="width: 100% !important;">
   <tr>
@@ -953,7 +951,7 @@ Besides researchers, the current work would have hardly been possible without th
   </tr>
   <tr>
     <td style="white-space: nowrap;">Nov 2022</td>
-    <td style="line-height: 1.5 !important; padding: 0.5em;">Following fellowship at <a href="https://www.alignmentforum.org/posts/5uiQkyKdejX3aEHLM/how-to-diversify-conceptual-alignment-the-model-behind#Some_Concrete_Details"><u>Conjecture</u></a>, starts working on and <a href="https://drive.google.com/file/d/1FFnt-EgN48Y-eZUuByX5UVp5yQt4UWDs/view?usp=sharing"><u>writing up</u></a> <i>ArgRank</i>, <i>DebateGPT</i>, and bounded defensibility, secures grant.</td>
+    <td style="line-height: 1.5 !important; padding: 0.5em;">Following fellowship at <a href="https://www.alignmentforum.org/posts/5uiQkyKdejX3aEHLM/how-to-diversify-conceptual-alignment-the-model-behind#Some_Concrete_Details"><u>Conjecture</u></a>, starts working on and <a href="https://drive.google.com/file/d/1FFnt-EgN48Y-eZUuByX5UVp5yQt4UWDs/view?usp=sharing"><u>writing up</u></a> <i>ArgRank</i>, <i>DebateGPT</i>, and bounded defensibility, secures <a href="https://funds.effectivealtruism.org/grants?search=paul+bricman&sort=round"><u>grant</u></a>.</td>
   </tr>
   <tr>
     <td style="white-space: nowrap;">Mar 2023</td>
