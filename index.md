@@ -109,7 +109,7 @@ Finally, we zoom out of object-level technicalities and focus instead on concret
 
 Paul Bricman would like to thank the [Long-Term Future Fund](https://funds.effectivealtruism.org/grants?search=paul+bricman&sort=round) for financial support during the project, [Stability AI](https://stability.ai/) for providing the computational resources necessary to train _DebateGPT_, [Conjecture](https://www.conjecture.dev/) for providing the space to explore related ideas during a previous research fellowship, [AI Safety Camp](https://aisafety.camp/) for providing context and resources for the entire team to conduct their investigations (see _Chapter V_), [Alexander Gietelink Oldenziel](https://www.lesswrong.com/users/alexander-gietelink-oldenziel) for stimulating discussion on reasoning and epistemics, [Adam Shimi](https://www.lesswrong.com/users/adamshimi) for instilling an acute awareness of employed ontologies, [Anna](https://en.wikipedia.org/wiki/Anna%27s_Archive) and [Alexandra Elbakyan](https://www.sci-hub.st/alexandra) for infrastructural support, [Amber Dawn](https://amber-dawn-ace.com/) for patient editing, external advisors for helping refine the transparency level, as well as the authors of all prior work which this volume remixes. All that is lacking or in excess is his error.
 
-Elfia Bezou-Vrakatseli was supported by [UK Research and Innovation](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/S023356/1) in the [UKRI Centre for Doctoral Training in Safe and Trusted Artificial Intelligence](https://safeanadtrustedai.org).
+Elfia Bezou-Vrakatseli was supported by [UK Research and Innovation](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/S023356/1) in the [UKRI Centre for Doctoral Training in Safe and Trusted Artificial Intelligence](https://safeandtrustedai.org).
 
 ## Ch. I, Dialectical Power Dynamics
 
@@ -943,7 +943,7 @@ Besides researchers, the current work would have hardly been possible without th
   </tr>
   <tr>
     <td style="white-space: nowrap;">Jul 2021</td>
-    <td style="line-height: 1.5 !important; padding: 0.5em;">Organizes online event where a tool is <a href="https://drive.google.com/file/d/1xvNfRdmlQI2Z67E0HY8rzS0TdPWqs5tq/view?usp=sharing"><u>presented</u></a> that is to later <a href="https://www.youtube.com/watch?v=rDYNGjEe1fA"><u>evolve</u></a> and directly inform simulator theory.</td>
+    <td style="line-height: 1.5 !important; padding: 0.5em;">Organizes online event where a tool is <a href="https://www.youtube.com/watch?v=7FdfoM6RUVE"><u>presented</u></a> that is to later <a href="https://www.youtube.com/watch?v=rDYNGjEe1fA"><u>evolve</u></a> and directly inform <a href="https://www.alignmentforum.org/posts/vJFdjigzmcXMhNTsx/simulators">simulator theory</a>.</td>
   </tr>
   <tr>
     <td style="white-space: nowrap;">Jan & Jul 2022</td>
