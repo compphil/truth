@@ -937,28 +937,20 @@ Besides researchers, the current work would have hardly been possible without th
   <center>
   <table style="width: 100% !important;">
   <tr>
-    <td style="white-space: nowrap;">May 2019</td>
-    <td style="line-height: 1.5 !important; padding: 0.5em;">Paul <a href="https://www-edupedu-ro.translate.goog/cum-a-esuat-ministrul-educatiei-ecaterina-andronescu-sa-convinga-un-elev-pasionat-de-inteligenta-artificiala-sa-nu-mai-plece-din-tara/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp"><u>declines</u></a> official's offer to help design local study program, goes on to study abroad.</td>
+    <td style="white-space: nowrap;">Mar-Apr 2021</td>
+    <td style="line-height: 1.5 !important; padding: 0.5em;">Paul conducts <a href="https://web.archive.org/web/20230324232533/https://paulbricman.com/thoughtware/dual"><u>early experiments</u></a> involving fine-tuning language models as personal simulators, employing them in dialogue, prompting them procedurally, and hooking them up to external tools (originally <a href="https://web.archive.org/web/20210413131304/https://psionica.org/docs/workshop/dual/"><u>elsewhere</u></a>).</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap;">Apr 2021</td>
-    <td style="line-height: 1.5 !important; padding: 0.5em;">Conducts <a href="https://web.archive.org/web/20230324232533/https://paulbricman.com/thoughtware/dual"><u>early experiments</u></a> involving fine-tuning language models as personal simulators, employing them in dialogue, prompting them procedurally, and hooking them up to external tools (originally <a href="https://web.archive.org/web/20210413131304/https://psionica.org/docs/workshop/dual/"><u>elsewhere</u></a>). Obtains informal funding from <a href="https://stuhlmueller.org/"><u>Andreas</u></a> for pursuing related work.</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap;">Jul 2021</td>
-    <td style="line-height: 1.5 !important; padding: 0.5em;">Organizes online event where a tool is <a href="https://www.youtube.com/watch?v=7FdfoM6RUVE"><u>presented</u></a> that is to later <a href="https://www.youtube.com/watch?v=rDYNGjEe1fA"><u>evolve</u></a> and directly inform <a href="https://www.alignmentforum.org/posts/vJFdjigzmcXMhNTsx/simulators">simulator theory</a>.</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap;">Jan & Jul 2022</td>
-    <td style="line-height: 1.5 !important; padding: 0.5em;">Conducts <a href="https://web.archive.org/web/20220128060538/https://paulbricman.com/thoughtware/oneironomicon"><u>several</u></a> <a href="https://web.archive.org/web/20220702104914/https://paulbricman.com/thoughtware/deontic-dipoles"><u>early experiments</u></a> involving language models, reinforcement learning, and natural language inference.</td>
+    <td style="white-space: nowrap;">Jan-Jul 2022</td>
+    <td style="line-height: 1.5 !important; padding: 0.5em;">Conducts <a href="https://web.archive.org/web/20220128060538/https://paulbricman.com/thoughtware/oneironomicon"><u>several</u></a> <a href="https://web.archive.org/web/20220501233328/https://paulbricman.com/thoughtware/velma"><u>early</u></a> <a href="https://web.archive.org/web/20220702104914/https://paulbricman.com/thoughtware/deontic-dipoles"><u>experiments</u></a> involving language models, reinforcement learning, and natural language inference.</td>
   </tr>
   <tr>
     <td style="white-space: nowrap;">Nov 2022</td>
-    <td style="line-height: 1.5 !important; padding: 0.5em;">Following fellowship at <a href="https://www.alignmentforum.org/posts/5uiQkyKdejX3aEHLM/how-to-diversify-conceptual-alignment-the-model-behind#Some_Concrete_Details"><u>Conjecture</u></a>, starts working on and <a href="https://drive.google.com/file/d/1FFnt-EgN48Y-eZUuByX5UVp5yQt4UWDs/view?usp=sharing"><u>writing up</u></a> <i>ArgRank</i>, <i>DebateGPT</i>, and bounded defensibility, secures <a href="https://funds.effectivealtruism.org/grants?search=paul+bricman&sort=round"><u>grant</u></a>.</td>
+    <td style="line-height: 1.5 !important; padding: 0.5em;">Following fellowship at <a href="https://www.alignmentforum.org/posts/5uiQkyKdejX3aEHLM/how-to-diversify-conceptual-alignment-the-model-behind#Some_Concrete_Details"><u>Conjecture</u></a>, starts working on <i>ArgRank</i>, <i>DebateGPT</i>, and bounded defensibility, secures <a href="https://funds.effectivealtruism.org/grants?search=paul+bricman&sort=round"><u>grant</u></a>.</td>
   </tr>
   <tr>
     <td style="white-space: nowrap;">Mar 2023</td>
-    <td style="line-height: 1.5 !important; padding: 0.5em;">Elfia, Tom, and Yimeng join to investigate assumptions and benchmark artifacts under the umbrella context of <a href="https://aisafety.camp/"><u>AI Safety Camp Virtual 2023</u></a>.</td>
+    <td style="line-height: 1.5 !important; padding: 0.5em;">Elfia, Tom, and Yimeng join to investigate assumptions and benchmark artifacts at <a href="https://aisafety.camp/"><u>AI Safety Camp Virtual 2023</u></a>.</td>
   </tr>
   </table>
   </center>
