@@ -111,6 +111,8 @@ Paul Bricman would like to thank the [Long-Term Future Fund](https://funds.effec
 
 Elfia Bezou-Vrakatseli was supported by [UK Research and Innovation](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/S023356/1) in the [UKRI Centre for Doctoral Training in Safe and Trusted Artificial Intelligence](https://safeandtrustedai.org).
 
+Thomas Feeney was supported by a sabbatical grant from the [University of Saint Thomas](https://www.stthomas.edu/), where he is an Associate Professor of Philosophy.
+
 ## Ch. I, Dialectical Power Dynamics
 
 ### The Kaleidoscope of Reasonableness
