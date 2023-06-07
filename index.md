@@ -999,7 +999,7 @@ Besides researchers, the current work would have hardly been possible without th
   </tr>
   <tr>
     <td style="white-space: nowrap;">Mar 2023</td>
-    <td style="line-height: 1.5 !important; padding: 0.5em;">Elfia, Tom, and Yimeng join to investigate assumptions and benchmark artifacts at <a href="https://aisafety.camp/"><u>AI Safety Camp Virtual 2023</u></a> (see _Chapter V_).</td>
+    <td style="line-height: 1.5 !important; padding: 0.5em;">Elfia, Tom, and Yimeng join to investigate assumptions and benchmark artifacts at <a href="https://aisafety.camp/"><u>AI Safety Camp Virtual 2023</u></a> (see <i>Chapter V</i>).</td>
   </tr>
   </table>
   </center>
