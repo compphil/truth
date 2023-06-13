@@ -230,7 +230,7 @@ input.sanit { display: table-cell; font-family: inherit; font-size: inherit; wid
 
 .dunggraph { border: none; border-radius: 0.5rem; box-shadow: 0 0 10px grey inset; }
 
-div.metaculus { border-radius: 0.5rem; background-color: #eff4f4; }
+div.metaculus { border-radius: 0.5rem; background-color: #f9fbfb; }
 
 div.metaculuswrapper { padding-top: 1rem; padding-bottom: 1rem; }
 
