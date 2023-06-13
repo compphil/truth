@@ -16,9 +16,9 @@ By [Paul Bricman](https://paulbricman.com/),{% include sidenote.html id="mn-paul
   <center style="padding: 1em">
     <p>I am interested in <select class="summary" id="summaryselect">
     <option value=0 selected></option>
-    <option value=1>formal alignment research</option>
-    <option value=2>prosaic alignment research</option>
-    <option value=3>rationalism & metaethics</option>
+    <option value=1>metaphysics & formal alignment</option>
+    <option value=2>engineering & prosaic alignment</option>
+    <option value=3>metaethics & rationalism</option>
     <option value=4>metascience & field-building</option>
     </select></p>
   </center>
