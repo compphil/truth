@@ -87,15 +87,21 @@ In the fourth chapter, we then go on to suggest a number of applications of this
 4. [Building on Long Reflection](#building-on-long-reflection)
 5. [Connections to Logical Inductors & Classical Debate](#connections-to-logical-inductors--classical-debate)
 
-### Ch. V, Discussion
+### Ch. V, Benchmarking Artifacts
 
-In this final chapter, we attempt to gauge the feasibility of the applications described previously, and investigate solutions to potential issues.
+In the fifth chapter, we attempt to gauge the technical feasibility of the applications described previously. In the process, we uncover both fundamental issues and opportunities for improvement at the interface between engineering and philosophy.
 
 1. [Benchmarking _ArgRank's_ Dependencies](#benchmarking-argranks-dependencies)
 2. [Benchmarking _ArgRank_](#benchmarking-argrank)
-3. [Machines & Truth](#machines--truth)
-4. [Debate & Truth](#debate--truth)
-5. [Machines & Debate](#machines--debate)
+2. [Benchmarking _DebateGPT_](#benchmarking-debategpt)
+
+### Ch. VI, Truth, Debate, Machines
+
+In this final chapter, we sidestep all contingent bottlenecks arising from the current state of machine learning engineering, and go on to philosophically assess the maximalist ideal of an automated truth-seeking engine. In the process, we stumble upon several cruxes which have been vigorously debated since early modern philosophy.
+
+2. [Truth & Debate](#truth--debate)
+1. [Truth & Machines](#truth--machines)
+3. [Debate & Machines](#debate--machines)
 
 ### Appendix
 
@@ -103,7 +109,7 @@ Finally, we zoom out of object-level technicalities and focus instead on concret
 
 ## Acknowledgements
 
-Paul Bricman would like to thank the [Long-Term Future Fund](https://funds.effectivealtruism.org/grants?search=paul+bricman&sort=round) for financial support during the project, [Stability AI](https://stability.ai/) for providing the computational resources necessary to train _DebateGPT_, [Conjecture](https://www.conjecture.dev/) for providing the space to explore related ideas during a previous research fellowship, [AI Safety Camp](https://aisafety.camp/) for providing context and resources for the entire team to conduct their investigations (see _Chapter V_), [Alexander Gietelink Oldenziel](https://www.lesswrong.com/users/alexander-gietelink-oldenziel) for stimulating discussion on reasoning and epistemics, [Adam Shimi](https://www.lesswrong.com/users/adamshimi) for instilling an acute awareness of employed ontologies, [Anna](https://en.wikipedia.org/wiki/Anna%27s_Archive) and [Alexandra Elbakyan](https://www.sci-hub.st/alexandra) for infrastructural support, [Amber Dawn](https://amber-dawn-ace.com/) for patient editing, external advisors for helping refine the transparency level, as well as the authors of all prior work which this volume remixes. All that is lacking or in excess is his error.
+Paul Bricman would like to thank the [Long-Term Future Fund](https://funds.effectivealtruism.org/grants?search=paul+bricman&sort=round) for financial support during the project, [Stability AI](https://stability.ai/) for providing the computational resources necessary to train _DebateGPT_, [Conjecture](https://www.conjecture.dev/) for providing the space to explore related ideas during a previous research fellowship, [AI Safety Camp](https://aisafety.camp/) for providing context and resources for the entire team to conduct their investigations (see _Chapter V_ and _Chapter VI_), [Alexander Gietelink Oldenziel](https://www.lesswrong.com/users/alexander-gietelink-oldenziel) for stimulating discussion on reasoning and epistemics, [Adam Shimi](https://www.lesswrong.com/users/adamshimi) for instilling an acute awareness of employed ontologies, [Anna](https://en.wikipedia.org/wiki/Anna%27s_Archive) and [Alexandra Elbakyan](https://www.sci-hub.st/alexandra) for infrastructural support, [Amber Dawn](https://amber-dawn-ace.com/) for patient editing, external advisors for helping refine the transparency level, as well as the authors of all prior work which this volume remixes. All that is lacking or in excess is his error.
 
 Elfia Bezou-Vrakatseli was supported by [UK Research and Innovation](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/S023356/1) in the [UKRI Centre for Doctoral Training in Safe and Trusted Artificial Intelligence](https://safeandtrustedai.org).
 
@@ -1071,9 +1077,16 @@ However, this might not be necessary. [Recent research](https://arxiv.org/pdf/22
 To conclude, we have investigated whether or not natural language inference models do in fact employ logical form in their assignments of inter-statement support. Our findings strongly suggest that this is not the case, hinting at the poor defensibility of our initial hypothesis. However, the recent work of Wei et al. hints at the relation between scale and performance being vastly different in more exotic regimes. Beyond that, however, formulating what it means for a statement to support another in the first place remains a crux of our broader decomposition of coherent challenging. While future approaches to natural language inference (e.g. the suggested adaptation of the technique proposed by Burns et al.) may prove competitive to existing ones on established benchmarks, the proper framing of inter-statement support remains, for better or worse, up for debate. Perhaps the debate "subroutines" of _Chapter II_—the idea of recursively carrying out debates to help gauge inter-statement support—might therefore also be worth pursuing further.
 
 ### Benchmarking _ArgRank_
-### Machines & Truth
-### Debate & Truth
-### Machines & Debate
+
+### Benchmarking _DebateGPT_
+
+## Ch. VI, Truth, Debate, Machines
+
+### Truth & Debate
+
+### Truth & Machines
+
+### Debate & Machines
 
 ## Appendix
 
@@ -1112,7 +1125,7 @@ Besides researchers, the current work would have hardly been possible without th
   </tr>
   <tr>
     <td style="white-space: nowrap;">Mar 2023</td>
-    <td style="line-height: 1.5 !important; padding: 0.5em;">Elfia, Tom, and Yimeng join to investigate assumptions and benchmark artifacts at <a href="https://aisafety.camp/"><u>AI Safety Camp Virtual 2023</u></a> (see <i>Chapter V</i>).</td>
+    <td style="line-height: 1.5 !important; padding: 0.5em;">Elfia, Tom, and Yimeng join to investigate assumptions and benchmark artifacts at <a href="https://aisafety.camp/"><u>AI Safety Camp Virtual 2023</u></a> (see <i>Chapter V</i> and <i>Chapter VI</i>).</td>
   </tr>
   </table>
   </center>

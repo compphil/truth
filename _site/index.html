@@ -184,23 +184,37 @@
   <li><a href="#building-on-long-reflection">Building on Long Reflection</a></li>
   <li><a href="#connections-to-logical-inductors--classical-debate">Connections to Logical Inductors &amp; Classical Debate</a></li>
 </ol>
-<h3 id="ch-v-discussion">
+<h3 id="ch-v-benchmarking-artifacts">
   
   
-    Ch. V, Discussion <a href="#ch-v-discussion"></a>
+    Ch. V, Benchmarking Artifacts <a href="#ch-v-benchmarking-artifacts"></a>
   
   
 </h3>
     
 
-<p>In this final chapter, we attempt to gauge the feasibility of the applications described previously, and investigate solutions to potential issues.</p>
+<p>In the fifth chapter, we attempt to gauge the technical feasibility of the applications described previously. In the process, we uncover both fundamental issues and opportunities for improvement at the interface between engineering and philosophy.</p>
 
 <ol>
   <li><a href="#benchmarking-argranks-dependencies">Benchmarking <em>ArgRank’s</em> Dependencies</a></li>
   <li><a href="#benchmarking-argrank">Benchmarking <em>ArgRank</em></a></li>
-  <li><a href="#machines--truth">Machines &amp; Truth</a></li>
-  <li><a href="#debate--truth">Debate &amp; Truth</a></li>
-  <li><a href="#machines--debate">Machines &amp; Debate</a></li>
+  <li><a href="#benchmarking-debategpt">Benchmarking <em>DebateGPT</em></a></li>
+</ol>
+<h3 id="ch-vi-truth-debate-machines">
+  
+  
+    Ch. VI, Truth, Debate, Machines <a href="#ch-vi-truth-debate-machines"></a>
+  
+  
+</h3>
+    
+
+<p>In this final chapter, we sidestep all contingent bottlenecks arising from the current state of machine learning engineering, and go on to philosophically assess the maximalist ideal of an automated truth-seeking engine. In the process, we stumble upon several cruxes which have been vigorously debated since early modern philosophy.</p>
+
+<ol>
+  <li><a href="#truth--debate">Truth &amp; Debate</a></li>
+  <li><a href="#truth--machines">Truth &amp; Machines</a></li>
+  <li><a href="#debate--machines">Debate &amp; Machines</a></li>
 </ol>
 <h3 id="appendix">
   
@@ -221,7 +235,7 @@
 </h2>
     
 
-<p>Paul Bricman would like to thank the <a href="https://funds.effectivealtruism.org/grants?search=paul+bricman&amp;sort=round">Long-Term Future Fund</a> for financial support during the project, <a href="https://stability.ai/">Stability AI</a> for providing the computational resources necessary to train <em>DebateGPT</em>, <a href="https://www.conjecture.dev/">Conjecture</a> for providing the space to explore related ideas during a previous research fellowship, <a href="https://aisafety.camp/">AI Safety Camp</a> for providing context and resources for the entire team to conduct their investigations (see <em>Chapter V</em>), <a href="https://www.lesswrong.com/users/alexander-gietelink-oldenziel">Alexander Gietelink Oldenziel</a> for stimulating discussion on reasoning and epistemics, <a href="https://www.lesswrong.com/users/adamshimi">Adam Shimi</a> for instilling an acute awareness of employed ontologies, <a href="https://en.wikipedia.org/wiki/Anna%27s_Archive">Anna</a> and <a href="https://www.sci-hub.st/alexandra">Alexandra Elbakyan</a> for infrastructural support, <a href="https://amber-dawn-ace.com/">Amber Dawn</a> for patient editing, external advisors for helping refine the transparency level, as well as the authors of all prior work which this volume remixes. All that is lacking or in excess is his error.</p>
+<p>Paul Bricman would like to thank the <a href="https://funds.effectivealtruism.org/grants?search=paul+bricman&amp;sort=round">Long-Term Future Fund</a> for financial support during the project, <a href="https://stability.ai/">Stability AI</a> for providing the computational resources necessary to train <em>DebateGPT</em>, <a href="https://www.conjecture.dev/">Conjecture</a> for providing the space to explore related ideas during a previous research fellowship, <a href="https://aisafety.camp/">AI Safety Camp</a> for providing context and resources for the entire team to conduct their investigations (see <em>Chapter V</em> and <em>Chapter VI</em>), <a href="https://www.lesswrong.com/users/alexander-gietelink-oldenziel">Alexander Gietelink Oldenziel</a> for stimulating discussion on reasoning and epistemics, <a href="https://www.lesswrong.com/users/adamshimi">Adam Shimi</a> for instilling an acute awareness of employed ontologies, <a href="https://en.wikipedia.org/wiki/Anna%27s_Archive">Anna</a> and <a href="https://www.sci-hub.st/alexandra">Alexandra Elbakyan</a> for infrastructural support, <a href="https://amber-dawn-ace.com/">Amber Dawn</a> for patient editing, external advisors for helping refine the transparency level, as well as the authors of all prior work which this volume remixes. All that is lacking or in excess is his error.</p>
 
 <p>Elfia Bezou-Vrakatseli was supported by <a href="https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/S023356/1">UK Research and Innovation</a> in the <a href="https://safeandtrustedai.org">UKRI Centre for Doctoral Training in Safe and Trusted Artificial Intelligence</a>.</p>
 
@@ -1163,10 +1177,10 @@ bending of a spiral of the Milky Way. Each change implies a sequence of other ch
 <p>Fortunately, the two approaches can again cross-polinate. For instance, classical debate appears much closer to work on logical induction in terms of the type of formalisms involved, potentially providing a pathway for connecting the more applied work being conducted presently—touching on the specifics of contemporary systems via simulator theory, shard theory, autocurricula, etc.—with the esoteric realm of idealized reasoning. Conversely, the present work could provide a pathway to <a href="https://www.alignmentforum.org/posts/nzmCvRvPm4xJuqztv/deepmind-is-hiring-for-the-scalable-alignment-and-alignment#Scalable_Alignment_s_current_approach__make_AI_critique_itself">better connect</a> classical debate with the type of systems likely to be developed in the near future. Alternatively, the <em>ArgRank</em> operationalization might help address some of the challenges otherwise faced by the human judge, although it might also introduce others.</p>
 
 <p>This concludes our preliminary scaffolding of conceptual bridges, and with that, our broader discussion around ways in which one might apply the triad of artifacts for addressing the alignment problem.</p>
-<h2 id="ch-v-discussion-1">
+<h2 id="ch-v-discussion">
   
   
-    Ch. V, Discussion <a href="#ch-v-discussion-1"></a>
+    Ch. V, Discussion <a href="#ch-v-discussion"></a>
   
   
 </h2>
@@ -1344,26 +1358,42 @@ bending of a spiral of the Milky Way. Each change implies a sequence of other ch
   
 </h3>
     
-<h3 id="machines--truth">
+<h3 id="benchmarking-debategpt">
   
   
-    Machines &amp; Truth <a href="#machines--truth"></a>
-  
-  
-</h3>
-    
-<h3 id="debate--truth">
-  
-  
-    Debate &amp; Truth <a href="#debate--truth"></a>
+    Benchmarking <em>DebateGPT</em> <a href="#benchmarking-debategpt"></a>
   
   
 </h3>
     
-<h3 id="machines--debate">
+<h2 id="ch-vi-truth-debate-machines-1">
   
   
-    Machines &amp; Debate <a href="#machines--debate"></a>
+    Ch. VI, Truth, Debate, Machines <a href="#ch-vi-truth-debate-machines-1"></a>
+  
+  
+</h2>
+    
+<h3 id="truth--debate">
+  
+  
+    Truth &amp; Debate <a href="#truth--debate"></a>
+  
+  
+</h3>
+    
+<h3 id="truth--machines">
+  
+  
+    Truth &amp; Machines <a href="#truth--machines"></a>
+  
+  
+</h3>
+    
+<h3 id="debate--machines">
+  
+  
+    Debate &amp; Machines <a href="#debate--machines"></a>
   
   
 </h3>
@@ -1412,7 +1442,7 @@ bending of a spiral of the Milky Way. Each change implies a sequence of other ch
   </tr>
   <tr>
     <td style="white-space: nowrap;">Mar 2023</td>
-    <td style="line-height: 1.5 !important; padding: 0.5em;">Elfia, Tom, and Yimeng join to investigate assumptions and benchmark artifacts at <a href="https://aisafety.camp/"><u>AI Safety Camp Virtual 2023</u></a> (see <i>Chapter V</i>).</td>
+    <td style="line-height: 1.5 !important; padding: 0.5em;">Elfia, Tom, and Yimeng join to investigate assumptions and benchmark artifacts at <a href="https://aisafety.camp/"><u>AI Safety Camp Virtual 2023</u></a> (see <i>Chapter V</i> and <i>Chapter VI</i>).</td>
   </tr>
   </table>
   </center>
