@@ -12,7 +12,7 @@ By [Paul Bricman](https://paulbricman.com/),{% include sidenote.html id="mn-paul
 
 <div class="frame glow-medium" id="summaryframe">
   <p><b><i>Fig. Personalized overview.</i></b> </p>
-  <p>There is no such a thing as a perfect summary, as each reader tends to be interested in slightly different topics. That said, we attempt to strike a balance through several summaries tailored to specific interests.</p>
+  <p>There is no such thing as a perfect summary, as each reader tends to be interested in slightly different topics. That said, we attempt to strike a balance through several summaries tailored to specific interests.</p>
   <center style="padding: 1em">
     <p>I am interested in <select class="summary" id="summaryselect">
     <option value=0 selected></option>
