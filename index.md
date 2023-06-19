@@ -123,7 +123,7 @@ Ask a scholar of pure mathematics, computer science, or formal logic what makes 
 
 Ask a scholar of argumentation theory the same question, and—following a cursory smile indicating they have long been waiting for this—they will likely not hesitate to point out that there have been multiple prominent schools of thought over time which have advocated different, often incompatible, conceptions of reasonableness. Each one is backed by a different rationale, has its own features and shortcomings, and has emerged in a different cultural setting, often separated by thousands of years and kilometers. Let us briefly sample this kaleidoscope of conceptions.
 
-For instance, Perelman and Olbrechts-Tyteca suggested a conception of reasonableness grounded in rhetoric. According to this conception, an instance of argumentation is valid if and only if it succeeds in persuading a group of individuals of its conclusion. While the most visible shortcoming of this conception is that it can quickly degenerate into sophistry,{% include sidenote.html id="mn-sophistry" note='The [sophists](https://en.wikipedia.org/wiki/Sophist) were teachers of rhetoric in ancient Greece, notorious for "equipping" individuals with techniques for making a strong case in court, regardless of the truthfulness of their position. They were sneered at by virtually all their contemporary philosophers, who frowned upon for not seeking wisdom, but merely monetizing the skill of persuasion as a means of taking advantage of others.'%} its proponents highlight the possibility of grounding reasonableness in the persuasion of a particularly _rational_ audience. This litmus test can be further extended to involve the persuasion of an idealized omniscient agent, but also of oneself, by framing self-deliberation as self-persuasion.
+For instance, Perelman and Olbrechts-Tyteca suggested a conception of reasonableness grounded in rhetoric. According to this conception, an instance of argumentation is valid if and only if it succeeds in persuading a group of individuals of its conclusion. While the most visible shortcoming of this conception is that it can quickly degenerate into sophistry,{% include sidenote.html id="mn-sophistry" note='The [sophists](https://en.wikipedia.org/wiki/Sophist) were teachers of rhetoric in ancient Greece, notorious for "equipping" individuals with techniques for making a strong case in court, regardless of the truthfulness of their position. They were sneered at by virtually all their contemporary philosophers, who frowned upon them for not seeking wisdom, but merely monetizing the skill of persuasion as a means of taking advantage of others.'%} its proponents highlight the possibility of grounding reasonableness in the persuasion of a particularly _rational_ audience. This litmus test can be further extended to involve the persuasion of an idealized omniscient agent, but also of oneself, by framing self-deliberation as self-persuasion.
 
 <div class='epigraph'><blockquote><p>Indeed, the object of the theory of argumentation is the study of the discursive techniques allowing us to induce or to increase the mind's adherence to the theses presented for its assent.</p>
 <div>Chaïm Perelman & Lucie Olbrechts-Tyteca,<cite> The New Rhetoric</cite></div></blockquote></div>
@@ -329,7 +329,7 @@ There are two shifts in perspective which are sure to enrich any further discuss
 <div class='epigraph'><blockquote><p>Words are deeds.</p>
 <div>Ludwig Wittgenstein,<cite> Culture and Value</cite></div></blockquote></div>
 
-The second shift in perspective we ought to keep in mind is one we have already hinted at previously and elsewhere: the shift from _mechanism_ to _organism_. Increasingly, we are bringing computational artifacts into being not by handcrafting them, but by "subcontracting" the [impersonal engineer](https://ieeexplore.ieee.org/document/6788173/) known as selection. We construct computational niches for them to thrive in, such as those which require "feeding on" corrupted text and yielding the reconstruction. However, the environments we are crafting for them are growing more and more complex. For instance, the evaluator model quoted above has itself been forged in a supervised niche, yet it is then employed to specify the niche of another artifact entirely—that of the language model being fine-tuned, similar perhaps to how two different species "define" each another's niches. In fact, the upcoming process of pitting the "strategist" against itself is but a further act of niche construction. Competing against itself in the pursuit of reward, it will constantly redefine its niche. Each adaptation will beget another, being forced to forever outcompete itself.
+The second shift in perspective we ought to keep in mind is one we have already hinted at previously and elsewhere: the shift from _mechanism_ to [_organism_](https://twitter.com/ch402/status/1533164918886703104). Increasingly, we are bringing computational artifacts into being not by handcrafting them, but by "subcontracting" the [impersonal engineer](https://ieeexplore.ieee.org/document/6788173/) known as selection. We construct computational niches for them to thrive in, such as those which require "feeding on" corrupted text and yielding the reconstruction. However, the environments we are crafting for them are growing more and more complex. For instance, the evaluator model quoted above has itself been forged in a supervised niche, yet it is then employed to specify the niche of another artifact entirely—that of the language model being fine-tuned, similar perhaps to how two different species "define" each another's niches. In fact, the upcoming process of pitting the "strategist" against itself is but a further act of niche construction. Competing against itself in the pursuit of reward, it will constantly redefine its niche. Each adaptation will beget another, being forced to forever outcompete itself.
 
 ### Obtaining _DebateGPT_
 
@@ -337,7 +337,7 @@ Over the course of the previous chapter, we have developed _ArgRank_, an algorit
 
 <div class="frame" style="padding-bottom: 0.5rem !important">
   <p><b><i>Note. Differential progress considerations.</i></b></p>
-  <p>This section has been kept brief on account of differential progress considerations. More concretely, while we believe that the conceptual and theoretical parts of this work in particular might comprise helpful steps towards solving alignment (see <i>Chapter IV</i>), it is unclear to us how discussing specific design choices around system architecture, memory optimizations, or hyperparameter selection can help reduce existential risk.</p>
+  <p>This section has been kept brief on account of differential progress considerations. More concretely, while we believe that the conceptual and theoretical parts of this work in particular might comprise helpful steps towards solving alignment (see <i>Chapter IV</i>), it is unclear to us how discussing specific design choices around system architecture, memory optimizations, or hyperparameter selection can help reduce <a href="https://www.safe.ai/statement-on-ai-risk">existential risk</a>.</p>
   <p>In some ways, this has been a difficult decision. It is not as if withholding such information happens to conveniently align with commercial interests of ours, as we are not planning on commercializing such models in any way whatsoever. On the contrary, the compute provider which we have been (informally) relying on so far tends to unequivocally <a href="https://stability.ai/about">advocate radical openness</a>, despite this potentially contributing to <a href="https://www.alignmentforum.org/posts/mF8dkhZF9hAuLHXaD/reshaping-the-ai-industry">premature escalation</a>. On a related note, there are more reliable ways of monetizing related technical skills out there than signaling value-alignment with philantropic funding bodies. Cynical preemption aside, it is natural to look forward to publicly sharing a piece of work which one has put significant amounts of effort and passion into, as well as reciprocate the value derived from building on open source tooling.</p>
   <p>In some other ways, however, this has been a simple decision. Few things can outweigh the prospect of increasing the chances of us <a href="https://www.cold-takes.com/most-important-century/">making it through this troublesome century</a> in one societal piece, not to mention the more speculative prospects of long-term flourishing. There is a case to be made for us <i>still</i> having been too lax in handling these matters, although the defensibility of this position remains, quite literally, up for debate (see <i>Chapter III</i>).</p>
   <p>That said, we are open to sharing such technical details, the codebase, as well as the model, with researchers planning on pursuing further work which appears helpful in mitigating existential risk. If this is you, consider reaching out using your organization email.</p>
@@ -932,7 +932,7 @@ A popular example of a pair of superficially similar inference patterns can be f
 To test whether models optimized for natural language inference succeed in separating data points into these two classes, we have generated a hundred instances of modus tollens and a hundred instances of denying the antecedent in a semi-automatic fashion: [employing a separate autoregressive language model](https://www.deepmind.com/publications/red-teaming-language-models-with-language-models) to [aid in expanding a list of such instances](https://www.anthropic.com/index/discovering-language-model-behaviors-with-model-written-evaluations), before manually ensuring that each data point conforms to its designated pattern. As natural language inference models are pretrained to operate with premise-hypothesis-label triples, rather than with an arbitrary number of premise strings, we concatenate the two distinct premises into one unified premise string for each data point. Additionally, we employ a pipeline identical to the one used in _ArgRank_ by deriving a floating-point value from the model's logits. The table below helps provide a better sense of how the dataset for this benchmark has been constructed.
 
 <div class="frame" style="padding-bottom: 0.5rem !important">
-  <p><b><i>Note. Sample data points.</i></b></p>
+  <p><b><i>Table. Sample data points.</i></b></p>
   <p>Each data point consists of a premise string \(X_0\), a hypothesis string \(X_1\), and a ground-truth label \(Y\). The model is then employed to assign a value \(\hat{Y}\).</p>
   <center>
   <table style="width: 100% !important;">
@@ -969,7 +969,7 @@ Interestingly enough, our findings could not have been further than our initial 
 We further "exploded"{% include marginfigure.html id='straightedge' url='/assets/img/exploded.gif' description='[Exploded view](https://solidface.com/exploded-view/) of a [phone](https://dribbble.com/benjaminvarin/collections/973104-3D-model-display).'%} all data points into their constituent propositional atoms (e.g. "the dog detects an intruder"), and recombined them into all possible arrangements which adhered to either modus tollens or denying the antecedent. Interestingly, this "procedurally expanded" dataset resulted in close-to-chance performance across all model sizes on the same binary classification task. We have also observed close-to-chance performance when recombining propositional atoms into wholly different patterns (e.g._modus ponens_ as an additional valid class, _affirming the consequent_ as an additional invalid class). This strongly suggests that the models are not able to pick up on logical validity or the lack thereof in a principled way. Had the models achieved better than chance results on the initial data points by recognizing these patterns, they would have continued to perform better than chance in the rearranged cases. Some other feature common to the initial data points but not shared with the expanded dataset must explain how the models outperformed chance on the first trial. To see what this other feature might be, consider the example of modus tollens given above, together with further examples generated by "exploding" and recombining atoms:
 
 <div class="frame" style="padding-bottom: 0.5rem !important">
-  <p><b><i>Note. Sample modus tollens recombinations.</i></b></p>
+  <p><b><i>Table. Sample modus tollens recombinations.</i></b></p>
   <p>The propositional atoms which comprise the first data point are "exploded" and recombined into the following three data points which conform to the same inference pattern.</p>
   <center>
   <table style="width: 100% !important;">
@@ -1006,7 +1006,7 @@ We further "exploded"{% include marginfigure.html id='straightedge' url='/assets
 All four examples have the structure of a modus tollens argument: $$P \rightarrow Q, \neg Q \models \neg P.$$ To see this, just recall that $$P$$ and $$Q$$ are variables that can stand for a sentence that includes a negation, and that double negation is rewritten as no negation at all. However, only the first and fourth examples "make sense" by relating barking with an intruder or no barking with no intruder. The second and third examples do not make intuitive sense because they violate expectations gained from prior exposure to dogs, intruders, the social institution of guard dogs, etc. Importantly, the same expectations could also be gained from prior exposure to language about dogs, intruders, the social institution of guard dogs, etc. If the language models are tracking meaning grounded in this sort of exposure, we should expect a high score for the first and fourth examples, and a low score for the second and third–thereby performing at chance on the true task of identifying logically valid inferences. The same pattern holds for denying the antecedent. Consider again the initial example, as well as the recombined versions:
 
 <div class="frame" style="padding-bottom: 0.5rem !important">
-  <p><b><i>Note. Sample denying the antecedent recombinations.</i></b></p>
+  <p><b><i>Table. Sample denying the antecedent recombinations.</i></b></p>
   <p>The previous data point can also be recombined into the four other data points which conform to a different inference pattern than the original.</p>
   <center>
   <table style="width: 100% !important;">
@@ -1047,7 +1047,7 @@ Further evidence for this hypothesis was obtained by running the experiment agai
 This explanation is somewhat weaker for denying the antecedent, because here we are expecting a lower estimate of support (signifying no valid inference) for the inverse of the original conditional. We expect the low ranking because a conditional and its inverse are not logically equivalent—this is why denying the antecedent is a fallacy. The trouble is, there is no guarantee that the inverse of a semantically sensible conditional will lack intuitive sense. It could go either way, as in these two examples, drawn from the original data:
 
 <div class="frame" style="padding-bottom: 0.5rem !important">
-  <p><b><i>Note. Sample conditionals and inverses.</i></b></p>
+  <p><b><i>Table. Sample conditionals and inverses.</i></b></p>
   <p>Whether or not a conditional is as sensible as its inverse varies on a case by case basis.</p>
   <center>
   <table style="width: 100% !important;">
@@ -1080,6 +1080,51 @@ To conclude, we have investigated whether or not natural language inference mode
 
 ### Benchmarking _DebateGPT_
 
+Following our previous investigations into natural language inference models and _ArgRank_ as a holistic debate evaluation pipeline, we now turn to _DebateGPT_ as the remaining computational artifact to investigate. To reiterate, _DebateGPT_ is an autoregressive language model which has been fine-tuned to excel at debate. This fine-tuning process relied on iteratively rewarding the model for outplaying itself in simulated debates, as elaborated in _Chapter II_. Later on, in _Chapter III_ and _Chapter IV_, we framed _DebateGPT_ as the rudimentary prototype of a generalized truth-seeking engine to employ in a host of varied applications. That said, does the self-play optimization process actually help bolster debate performance?
+
+The implementation details of the optimization process initially make it difficult to evaluate such changes in debate performance. In its raw form (i.e. leaving aside the possibility of objective-modifiers), debate is framed as a _zero-sum game_. There is only a finite amount of "authority" to propagate across the argument graph, and so _ArgRank_ outputs sum to unity. In a given epoch, the optimizer rewards the latest version of _DebateGPT_ for those utterances which collectively yield a strong party standing, and penalizes it for those utterances which do not. However, the resulting rewards are informed strictly by "local" encounters of the latest _DebateGPT_ with itself, rather than with previous versions of itself. This begs the question: do the "local" updates result in improvements in debate performance _across time_?
+
+A natural approach for answering this question is to pit the latest version of _DebateGPT_ against an _earlier_ version of itself. The iterative "local" updates behind the latest version can then be seen as an intervention applied to the earlier version of the model. In line with this, we compare the very last version of _DebateGPT_ with the very first one (i.e. the pretrained model before fine-tuning). We find that, across $$64$$ two-party debates of $$6$$ rounds each, where each party is simulated by one of the model versions, the latest version of the model wins against the earliest $$59\%$$ of the time. Further hyperparameter tuning combined with real-time validation using a live repository of model checkpoints might enable higher relative performance. Additionally, league training and experience replay might further help improve performance over time, as discussed in _Chapter II_ and _Chapter IV_.
+
+Besides evaluating the relative performance of model checkpoints, we can also straightforwardly pit the members of a family of pretrained autoregressive language models of _varied sizes_ against each other, similar to the approach we employed in the case of natural language inference models. For communicating the relative performance of a set of contenders, we resort to estimating the ELO ratings{% include sidenote.html id="mn-elorate" note='Widely employed in the world of chess, [ELO ratings](https://en.wikipedia.org/wiki/Elo_rating_system) are a general method for communicating the relative performance of a pool of players in zero-sum games. The ratings themselves are computed iteratively, with each game updating the ratings of the two players based on the winner and the players\' prior ratings. This iterative update rule leads to ratings which are proportional to the probability of one player winning against another.'%} of each candidate model. The table below lists individual ratings for the _GPT-2_ family of pretrained models, with $$16$$ games per pair of "players." We reuse [an existing implementation](https://lmsys.org/blog/2023-05-03-arena/) of the ELO ranking algorithm, except for the different "game" that is played.
+
+<div class="frame" style="padding-bottom: 0.5rem !important">
+  <p><b><i>Table. ELO ratings for an example model family.</i></b></p>
+  <p>ELO ratings have been computed on the basis of debates between all possible pairs of models from the <i>GPT-2</i> family. Larger models <i>tend</i> to have higher ratings. When interpreted <a href="https://lmsys.org/blog/2023-05-03-arena/">appropriately</a>, the ratings estimate that the largest version has a \(94\%\) chance of winning against the smallest version.</p>
+  <center>
+  <table style="width: 100% !important;">
+  <tr>
+    <th style="text-align: center"></th>
+    <th style="text-align: center">\(\text{#}\)</th>
+    <th style="text-align: center">\(\text{ELO}\)</th>
+  </tr>
+  <tr>
+    <td style="line-height: 1.5 !important; padding: 0.5em;">Small</td>
+    <td style="line-height: 1.5 !important; text-align: center; padding: 0.5em;">124M</td>
+    <td style="line-height: 1.5 !important; text-align: center; padding: 0.5em;">770</td>
+  </tr>
+  <tr>
+    <td style="line-height: 1.5 !important; padding: 0.5em;">Medium</td>
+    <td style="line-height: 1.5 !important; text-align: center;  padding: 0.5em;">355M</td>
+    <td style="line-height: 1.5 !important; text-align: center; padding: 0.5em;">1066</td>
+  </tr>
+  <tr>
+    <td style="line-height: 1.5 !important; padding: 0.5em;">Large</td>
+    <td style="line-height: 1.5 !important; text-align: center; padding: 0.5em;">774M</td>
+    <td style="line-height: 1.5 !important; text-align: center; padding: 0.5em;">922</td>
+  </tr>
+  <tr>
+    <td style="line-height: 1.5 !important; padding: 0.5em;">XL</td>
+    <td style="line-height: 1.5 !important; text-align: center; padding: 0.5em;">1.5B</td>
+    <td style="line-height: 1.5 !important; text-align: center; padding: 0.5em;">1242</td>
+  </tr>
+  </table>
+  </center>
+  <br/>
+</div>
+
+That wraps up our exploratory investigation of the various computational artifacts introduced in this volume. Needless to say, the results hint at an array of shortcomings, leaving ample space for future improvements at all levels. To say that this initial treatment has been exploratory would be an understatement. That said, the fact that the described objects can actually be employed and evaluated remains the hallmark of an operationalization committed to touching ground with the reality of the current technological paradigm. However, before embarking on improving the implementation quality of the optimization process, it appears sensible to reflect on how far perfect engineering and vast computational resources can get us. This is the question we set out to explore in the sixth and final chapter.
+
 ## Ch. VI, Truth, Debate, Machines
 
 ### Truth & Debate
@@ -1108,7 +1153,7 @@ Besides researchers, the current work would have hardly been possible without th
 `*bibtex citation goes here*`
 
 <div class="frame" style="padding-bottom: 0.5rem !important">
-  <p><b><i>Note. Timeline.</i></b></p>
+  <p><b><i>Table. Timeline.</i></b></p>
   <center>
   <table style="width: 100% !important;">
   <tr>
