@@ -919,7 +919,7 @@ Fortunately, the two approaches can again cross-polinate. For instance, classica
 
 This concludes our preliminary scaffolding of conceptual bridges, and with that, our broader discussion around ways in which one might apply the triad of artifacts for addressing the alignment problem.
 
-## Ch. V, Discussion
+## Ch. V, Benchmarking Artifacts
 
 ### Benchmarking _ArgRank's_ Dependencies
 
