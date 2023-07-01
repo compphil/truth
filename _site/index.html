@@ -96,8 +96,6 @@
 </h2>
     
 
-<p><strong>This is a work in progress. Please refrain from sharing it before it gets published, for ensuring an optimal reading experience.</strong></p>
-
 <p>The document you just stumbled upon is largely a <em>chimera</em> which brings together features of seemingly incompatible media artifacts. First, it incorporates the literary license of a novel, in order to facilitate the occasional act of daring idealism. Second, it incorporates the subject matter of an academic paper, with each chapter documenting original research at the intersection of machine learning, epistemology, and metaethics—be it conceptual, theoretical, or applied work. Third, it incorporates the <a href="https://dynamicland.org/">reactivity</a> of web pages, with occasional <a href="https://distill.pub/2020/communicating-with-interactive-articles/">interactive widgets</a> and <a href="https://explorabl.es/">explorable explanations</a> being interweaved with plain text, besides plenty of links being scattered around. Accordingly, it is <em>by far</em> best viewed on desktop and in full screen.</p>
 
 <p>This “mixed media” concoction might make it daunting to engage with the artifact at hand, and for good reason. However, approaching it as a <em>short book</em> appears to elicit the most appropriate expectations, helping the reader reliably take advantage of the best of all worlds. Indeed, the “Save to PDF” version of the artifact weighs in at around a hundred pages, depending on the page layout. Given this, churning through the entire document in one sitting is generally advised against. Instead, individual chapters make for much more manageable chunks—roughly mapping to separate academic papers coming together in a complementary constellation. One should expect a leisurely read of the whole artifact—one which includes playing with explorables, as well as following a few linked rabbit holes—to take three or four hours. That said, skimming might only take one or two hours, while exploring each and every nook might take forever.</p>
@@ -1655,14 +1653,64 @@ bending of a spiral of the Milky Way. Each change implies a sequence of other ch
 <p>This section explored three fundamental differences between machine and human debate. Human beings have unequal, uneven access to truth–and they take these inequities into account to learn from each other more efficiently. All this happens before debate even begins, and it shapes the way debate plays out. Once the institution of debate is established among humans, it becomes available for many purposes beyond its intrinsic end. Finally, any actual human debate is partially unspoken, employing a common ground of joint presuppositions that licenses some inferences while blocking others. The machine debate we envision, on the other hand, employs agents spun up for the debate without prior epistemic standing in a community, lacking any purposes of their own beyond achieving rational agreement, and independent of any common ground that cannot be challenged or made explicit within the debate itself.</p>
 
 <p>The overarching goal is <em>a machine that gives us certain knowledge when we ask for it</em>. To achieve this, we need a machine that can research, reliably finding truths and sorting out falsehoods. For this, we operationalized truth as debate, defined as <em>the iterative search for positions that coherently challenge their predecessors</em>. Building a machine that debates in this idealized way is not easy, though, because the human example available for training is fraught with undesirable features, even at the most fundamental level of natural language inference.</p>
-<h3 id="debate--machines-1">
+<h3 id="truth--machines">
   
   
-    Debate &amp; Machines <a href="#debate--machines-1"></a>
+    Truth &amp; Machines <a href="#truth--machines"></a>
   
   
 </h3>
     
+
+<p>Knowledge may be too much to ask. Assume we operationalize truth correctly as the iterative search for positions that coherently challenge their predecessors. Assume further that we implement this idealized form of debate in <em>DebateGPT</em>. Assume finally that we are free of contingent limits on time and compute. To gain knowledge we would still need to use the program properly. This section outlines three obstacles to proper use, and suggests that <em>DebateGPT</em> would need to accommodate its users in roughly the way that an excellent teacher accommodates her students.</p>
+
+<p>The first step is to see the difficulty. With all these assumptions granted, <em>DebateGPT</em> would be an excellent oracle in the sense first described by Nick Bostrom in <a href="https://nickbostrom.com/"><em>Superintelligence</em></a> and later <a href="https://www.lesswrong.com/tag/oracle-ai">adopted by alignment researchers</a>. An oracle answers questions truthfully, or at least accurately, and it would seem easy to gain knowledge from such a machine. We would simply need to ask and wait. However, our questions might be ill-formed, the answer to a well-formed question might exceed our comprehension, and the fact that the machine generates true answers is not sufficient to justify our trust.</p>
+
+<p>In the worst cases, we risk asking questions that lack true answers or merely parroting a true answer that we do not understand. Slightly less bad, we risk believing new truths without justification. In each case, we would fail to know. To overcome these obstacles, <em>DebateGPT</em> would need to function as an excellent teacher: refining questions, explaining answers, and working in a transparent, trustworthy way.<label for="mn-seehoweverapplications" class="margin-toggle sidenote-number"></label><input type="checkbox" id="mn-seehoweverapplications" class="margin-toggle" /><span class="sidenote">That said, see also the “non-oracular” <a href="#building-on-long-reflection">applications</a> of <em>Chapter IV</em>, which do not focus (directly) on helping humans <em>know</em>.</span></p>
+
+<p>Before addressing each obstacle, we should attempt to define knowledge.<label for="mn-defineknowledge" class="margin-toggle sidenote-number"></label><input type="checkbox" id="mn-defineknowledge" class="margin-toggle" /><span class="sidenote">We will not be the first to try: this is an original philosophical question and the primary focus of an active subfield, epistemology. Within epistemology, there is even a movement to <a href="https://academic.oup.com/book/9070">avoid defining knowledge</a>, taking it instead as a fundamental term.</span> Narrowing the focus to knowledge-that as opposed to know-how,<label for="mn-controversialdistinction" class="margin-toggle sidenote-number"></label><input type="checkbox" id="mn-controversialdistinction" class="margin-toggle" /><span class="sidenote">Even this distinction is controversial. See <a href="https://global.oup.com/academic/product/know-how-9780199695362?cc=us&amp;lang=en&amp;#">Jason Stanley</a>.</span> there is consensus that we know a proposition \(P\) only if (1) \(P\) is true, (2) we believe \(P\), and (3) the belief that \(P\) is somehow justified<label for="mn-menojustify" class="margin-toggle sidenote-number"></label><input type="checkbox" id="mn-menojustify" class="margin-toggle" /><span class="sidenote">That belief must be somehow demonstrated or rooted appears already in Plato’s <em>Meno</em>.</span> or appropriate in the circumstances. Notoriously, <a href="https://plato.stanford.edu/entries/knowledge-analysis/#GettProb">this is not enough for knowledge</a>, because the justification for believing \(P\) can pull apart from the reason \(P\) is true in mischievous ways. For example, I may believe Paul is in Italy <em>because he told me so</em>. From this I infer <em>by first-order logic</em> that Paul is in Italy or Greece (i.e. by <a href="https://en.wikipedia.org/wiki/Disjunction_introduction">disjunction introduction</a>). If Paul actually is in Greece, I have a justified, true belief–but only by sheer luck. More simply, my trusty clock has finally stopped but I happen to consult it exactly twelve hours later. Knowledge, then, is justified and true belief where the belief’s justification is meaningfully related to the belief’s truth. There is no consensus yet on how to make this definition precise, let alone on how to operationalize it for AI.</p>
+<h4 id="forming-good-questions">
+  
+  
+    Forming Good Questions <a href="#forming-good-questions"></a>
+  
+  
+</h4>
+    
+
+<p>Asking questions without a true answer is the most straightforward way to misuse an oracle. Unfortunately, it is difficult to avoid this risk without confining ourselves to already very well understood domains of inquiry. As the subsection on common ground implies, many questions we might put to <em>DebateGPT</em> carry presuppositions that may turn out to be false, thereby making it impossible to answer the question directly without accepting the false presupposition. For example, we might ask why the sun rises in the West, or why water contracts when it freezes. To mitigate the risk, we might ask more awkward but less presumptuous versions of the same questions, like “Why does the sun rise in the direction in which it rises?” or “Why does water change in density in the way it changes in density when it freezes?” Of course, these questions still carry presuppositions. Trying again, we might ask, “Why does the sun move relative to the Earth the way it moves relative to the Earth?” Alternately, we might achieve the same goal by <a href="https://mitpress.mit.edu/9780262028097/ostension/">ostention</a>: [uttered while pointing at the sun] “Why does the sun do that?” Shaving away all presuppositions to completely eliminate this risk, we may be left typing “Why?” while gesturing wildly in all directions.</p>
+
+<p>Other questions, perhaps most, rest on vaguely specified or context-dependent concepts. This leads to a subtler but just as common way that questions threaten to lack true answers. How should the machine answer when we ask for the height difference between the tallest short man and the shortest tall man? The question fails to have a unique, true answer because “tall” and “short” are not precisely defined, even in the narrow context of man stature. Is the water in Lake Baikal frigid in the summer? Who was the first human being? Most questions, even those posed in a scientific context, involve <a href="https://plato.stanford.edu/entries/vagueness/#ComAmbGen">at least one vague or ambiguous term</a>. Human beings handle these questions honestly by settling for accuracy as a proxy for strict truth, and this is what <a href="http://www.aleph.se/papers/oracleAI.pdf">Armstrong, Sandberg, and Bostrom</a> propose for artificial intelligences as well: “Informative accuracy is the requirement, not the strict truth.”</p>
+
+<p>Another, compatible solution is to answer the question in the course of a conversation about the question itself. If you ask why water contracts as it freezes, I would correct your mistake but also ask why you think it does. As the conversation unfolds, I would aim to trace the mistake back to its root and rebuild from there. This strategy preserves the goal of truth, but it would require <em>DebateGPT</em> to engage with its human users–and not just with itself–like a debater, exposing false assumptions and demanding a clarification of terms. If most questions carry risky presuppositions and underdefined terms, then effectively transferring knowledge to human users would require the program to use its capacity for debate to teach.</p>
+<h4 id="understanding-the-answers">
+  
+  
+    Understanding the Answers <a href="#understanding-the-answers"></a>
+  
+  
+</h4>
+    
+
+<p>Even when posing a good question, we might fail to understand the answer, a risk that applies especially to the most interesting or far-reaching questions. The danger here is not just that the answer may be too complex, too far down some dialectical rabbit-hole for us to follow, but that the answer will involve concepts that are <a href="https://plato.stanford.edu/entries/incommensurability/">incommensurable</a> with our own current conceptual resources. This has happened before in the development of human thought, and the traces of profound conceptual shifts remain in our language, as when we speak of splitting the atom (<a href="https://www.etymonline.com/word/Atom">literally</a>, <em>that which cannot be split</em>). Transferring knowledge to its human users may once again require <em>DebateGPT</em> to act as a teacher, though the sort of teaching needed to explain a difficult answer is less obviously associated with debate than the sort required to refine a question. Rather than debate with its human users, the program would need to present its own debating history as a process of discovery, because the series of coherent challenges that led to a difficult answer may contain the resources needed to understand the answer itself.</p>
+<h4 id="trusting-the-machine">
+  
+  
+    Trusting the Machine <a href="#trusting-the-machine"></a>
+  
+  
+</h4>
+    
+
+<p>Asking a good question and understanding its answer does not take us all the way to knowledge, because we still need some reason to trust that the program has answered correctly. It is one thing for the machine to be trustworthy, and another for us to know that it is trustworthy. What could entitle us to this belief?</p>
+
+<p>We could check its answers against knowledge we already have and infer that the machine always answers truthfully, but this gives us limited assurance that the machine answers truthfully, rather than truthfully-only-when-it-can-be-checked-against-prior-human-knowledge. Our confidence in the machine would be limited by the scope of our prior knowledge, thereby compromising its ability to give us any new knowledge. Alternatively, we could know that the machine’s design guarantees that it only output truths–but this cuts against the character of machine learning in which the machine learns something or some method that we as designers do not already understand. Besides, if we did possess such a design or algorithm, then we would already have the sort of original intimacy with the world that the machine is supposed to supply.</p>
+
+<p>These two ways of assuring ourselves that “whatever the machine tells me is true” are comparable to the ways we assure ourselves that a chess-playing AI has made a good move. We could check the move against the massive corpus of chess games. Alternatively, we could code our recipe for “good chess moves” into the AI, up to the limit of solving the game mathematically. The first method limits our trust in moves outside the corpus or beyond our fathom, while the second presumes we already have a deep enough understanding of chess prior to building the AI. In searching for good chess moves as in searching for truth, we cannot adequately justify our trust in the program unless we already know everything (and so don’t need the machine at all) or already understand the algorithm that will teach us everything (and only need the machine for its speed).</p>
+
+<p>This situation may not be as bad as it seems, however, if the algorithm is extremely simple. If there is an interpretable, elegant way to implement coherent challenging, then we could understand the algorithm and thereby trust the machine while still marveling at what it is able to discover by implementing that algorithm at superhuman speed. As for original intimacy with the world, we have just enough to know what it is like to learn, but not enough to learn everything we would like to know–and for this we need something like <em>DebateGPT</em>.</p>
+
+<p>We began this chapter hoping to revive the dream of <em>certain knowledge</em> by passing the goal along to a machine. For this we defended an operationalization of truth grounded in the PSR and a refined version of debate which is surprisingly different from actual human debates. We may now add that completing the project, bringing the knowledge gained back into human minds, would require that <em>DebateGPT</em> act as a teacher, clarifying our questions and explaining its answers, all while running an interpretable, indeed familiar, algorithm. At each stage, we noted gaps between the goal and what we can fully justify or achieve, even beyond all contingent limits. The gaps are not reasons to give up, but instead markers to guide and structure progress, so that we can learn as much as possible from iterating on, and then from using, <em>DebateGPT</em>.</p>
 <h2 id="appendix-1">
   
   
@@ -1687,7 +1735,12 @@ bending of a spiral of the Milky Way. Each change implies a sequence of other ch
 
 <p>Besides researchers, the current work would have hardly been possible without the financial and computational resources necessary for the kind of <a href="https://en.wikipedia.org/wiki/Blue_skies_research">“blue skies”</a> and <a href="https://notes.benjaminreinhardt.com/DARPA_provides_a_derisking_role_for_people_in_other_organizations">“derisking”</a> research we have undertaken. Given this, we ask entities—individuals and organizations alike—who resonate with this enterprise and would like to support it, to reach out privately. Finally, if building on this work in your own, please cite it as:</p>
 
-<p><code>*bibtex citation goes here*</code></p>
+<pre><code>@misc{bricman2023elements,
+  title={Elements of Computational Philosophy, Vol. I: Truth},
+  author={Bricman, Paul and Bezou-Vrakatseli, Elfia and Feeney, Thomas and Xie, Yimeng},
+  year={2023}
+}
+</code></pre>
 
 <div class="frame" style="padding-bottom: 0.5rem !important">
   <p><b><i>Table. Timeline.</i></b></p>
