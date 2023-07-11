@@ -55,9 +55,9 @@ var reviews = [
     ],
     [
         [
-            "This is a placeholder review for the prosaic alignment research angle.",
-            "Name",
-            "Position at Affiliation"
+            "This has been one of the most exciting reads I've had in a while. So many fun thoughts and ideas in there, a thought-provoking tour de force from foundational alignment thinking to prosaic alignment research and back.",
+            "Jan Hendrik Kirchner",
+            "Research Engineer at OpenAI"
         ],
     ],
     [
