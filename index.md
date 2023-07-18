@@ -1168,7 +1168,7 @@ Besides evaluating the relative performance of model checkpoints, we can also st
 
 That wraps up our exploratory investigation of the various computational artifacts introduced in this volume. Needless to say, the results hint at an array of shortcomings, leaving ample space for future improvements at all levels. To say that this initial treatment has been exploratory would be an understatement. That said, the fact that the described objects can actually be employed and evaluated is encouraging, since it suggests that our operationalization is in touch with the reality of the current technological paradigm. However, before embarking on improving the implementation quality of the optimization process, it appears sensible to reflect on how far perfect engineering and vast computational resources can get us. This is the question we set out to explore in the sixth and final chapter.
 
-## Ch. VI, Truth, Debate, Machines
+<h2 id="chapter-vi">Ch. VI, Truth, Debate, Machines</h2>
 
 The current project aims to automate the pursuit of truth by automating both debate itself and the process of judging a debate’s winner. Of course, the project is limited by compute, engineering ability, and time–limits we push against long before we encounter the theoretical or conceptual limits inherent in automated truth-seeking. This section aims to limn those inherent limits by philosophical reflection on a maximal version of the goal: _a machine that gives us certain knowledge when we ask for it_.
 
