@@ -12,10 +12,9 @@ d3.select("#summaryselect")
 
 var summaries = [
     [],
-    "We attempt to operationalize the notion of metaphysical truth-seeking (i.e. the pursuit of knowledge which lies beyond experiential data) in a way that is deeply compatible with the architecture of prosaic (i.e. deep learning) systems. We achieve this by formulating the truth-seeking process as <i>bounded defensibility maximization</i>, a multi-agent optimization problem loosely inspired by prior work on logical induction. In line with this framing, we conjecture that it is impossible to make a coherent case against the claim that the true nature of truth-seeking lies in the existence of parties which coherently challenge one's claims.",
-    "We develop a novel training regime meant to enable self-play debate at scale, and successfully apply it to fine-tune a language model on a remote cluster. Crucially, the learning signal is <i>not</i> being provided by human contractors or reward models thereof. Rather, it is supplied by a principled algorithm designed to evaluate the competing parties based on ideas from argumentation theory and epistemology. We further speculate on the effects of this training regime using conceptual tools from shard theory, simulator theory, autocurricula, interpretability, and others.",
-    "We develop systems around the Hansonian notion of motivated reasoning being central to human thought, building on work which challenges the idea that reasoning emerged to help humans form accurate beliefs. Crucially, we overcome the partisanship inherent to the soldier mindset by incentivizing the very same system to steelman conflicting perspectives through different simulacra. Building on this, we design automated procedures for pursuing knowledge which lies beyond the empirical realm of evidence, and speculate on ethical frameworks which require infinite computational resources to undermine.",
-    "We explore connections between formal and prosaic alignment, in an attempt to promote a more meaningful dialogue between the two communities. In addition, we weave together a number of complementary avenues of investigation (e.g. shard theory, simulator theory, interpretability, etc.), in an attempt to promote cross-pollination and facilitate integration. Finally, we acknowledge the still minuscule size of the technical alignment community as a whole, and so attempt to communicate our findings in a format designed to be accessible and engaging."
+    "We attempt to operationalize the notion of metaphysical truth-seeking (i.e., the pursuit of knowledge which lies beyond experiential data) in a way that is compatible with the architecture of deep learning systems. To achieve this, we formulate the truth-seeking process as <i>bounded defensibility maximization</i>, a multi-agent optimization problem loosely inspired by prior work on logical induction. In line with this framing, we conjecture that it is impossible to make a coherent case against the claim that the true nature of truth-seeking lies in the existence of parties which coherently challenge one's claims.",
+    "We develop a training regime meant to enable self-play debate, and apply it to fine-tune a language model on a remote cluster. Crucially, the learning signal is <i>not</i> being provided by human contractors or reward models thereof. Rather, it is supplied by an algorithm designed to evaluate the competing parties based on ideas from argumentation theory and epistemology. We further speculate on the effects of this training regime using ideas from shard theory, simulator theory, autocurricula, interpretability, and others.",
+    "We develop systems around the notion of motivated reasoning being central to human thought, building on work which challenges the idea that reasoning emerged to help humans form accurate beliefs. However, we attempt to overcome the partisanship inherent to the 'soldier mindset' by incentivizing the same system to 'steelman' conflicting perspectives through different simulacra. Building on this, we design procedures for pursuing knowledge which lies beyond empirical evidence, and speculate on ethical frameworks which require infinite computational resources to undermine.",
 ]
 
 var excerpts = [
@@ -37,11 +36,6 @@ var excerpts = [
      "What more effective—and, at the same time, insidious—means of furthering one’s survival than control over another’s agency? Much power in particular lies in the esoteric realm of the empirically unfalsifiable, both in persuasion and self-persuasion, both for humans and machines.",
      "But would the most defensible understanding of the world—together with the crucial moral knowledge which it ought to incorporate—truly be desirable as a framework to endow our machines with? How much blood has been spilled over the centuries by fanatics blinded by totalizing ideologies which warranted the dismissal of all others? Undoubtedly, far too much.",
      "To touch on what might well be the thorniest dilemma of this section, would it be moral to allow “love for mankind” to conflict with moral progress in the case in which the most defensible normative position implies, for the sake of argument, the danger posed by humanity to other moral patients across the lightcone? What ought we place in higher regard—and implement through concrete engineering choices—when cornered into such thought experiments, humanism or moral progressivism? The dilemma is left as an exercise to the reader."],
-    ["The very same problem can therefore be solved in two extremely different ways: one perfect, yet improbable; the other arbitrarily accurate, yet reliable. It is the latter we are going for.",
-     "Finding ourselves at the convergence of so many complementary formalisms—of logic, dialectics, statistics, game theory, optimization theory, computational complexity, etc.—is always a good omen, hinting at the presence of deep connections across approaches.",
-     "Sure, we might specifically prompt language models for dissenting opinions, but as Jacques Derrida might argue—a French philosopher whose prescient insights will soon resurface in our discussion—we would be bound to conceive of other ideologies from “within” the totalizing structure of our own, we would implicitly objectify the madness which is exterior to our ontological interior, which is interior to our ontological exterior.",
-     "It would certainly be more appropriate for ethicists well-versed in these philosophical issues to identify the most sensible answer. That said, we permit ourselves to explore technical solutions which reflect alternate answers to the metaethical concerns above, if only as varied options to then be considered.",
-     "As children delight themselves in grappling with demanding puzzles, there is scarcely anything more gratifying than grappling with enigmas as gargantuan as truth, beauty, will, life, etc. In the whimsical playground structured by the chronicles, computational artifacts take the place of colorful cubes, theoretical formalisms those of little cylinders, and conceptual frameworks those of quaint prisms. Armed with those building blocks, we started constructing a system of philosophy which is to be applied not by observing its precepts in daily life, but by engineering it into the most far-reaching of artifacts–and in doing so, attempting timelessness."]
 ]
 
 var reviews = [
@@ -66,13 +60,6 @@ var reviews = [
             "Name",
             "Position at Affiliation"
         ],
-    ],
-    [
-        [
-            "This is a placeholder review for the metascience & field-building angle.",
-            "Name",
-            "Position at Affiliation"
-        ],
     ]
 ]
 
@@ -89,14 +76,14 @@ function renderSummary(topic) {
     d3.select("#psummary")
         .html(summaries[topic]);
 
-    let excerptsHTML = excerpts[topic].map((e) => `<div class='epigraph excerpt'><blockquote><p>"` + e + `"</p></blockquote></div>`).join("");
-    d3.select("#summaryexcerpts")
-        .html(excerptsHTML);
+//     let excerptsHTML = excerpts[topic].map((e) => `<div class='epigraph excerpt'><blockquote><p>"` + e + `"</p></blockquote></div>`).join("");
+//     d3.select("#summaryexcerpts")
+//         .html(excerptsHTML);
 
-    let reviewsHTML = reviews[topic].map((e) => `<div class='epigraph excerpt'><blockquote><p>"` + e[0] + `"</p><div>` + e[1] + `, <cite>` + e[2] + `</cite></div></blockquote>
-</div>`).join("");
-    d3.select("#summaryreviews")
-        .html(reviewsHTML);
+//     let reviewsHTML = reviews[topic].map((e) => `<div class='epigraph excerpt'><blockquote><p>"` + e[0] + `"</p><div>` + e[1] + `, <cite>` + e[2] + `</cite></div></blockquote>
+// </div>`).join("");
+//     d3.select("#summaryreviews")
+//         .html(reviewsHTML);
 }
 
 renderSummary(0);
