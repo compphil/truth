@@ -20,7 +20,7 @@ var slidesPercepts = d3.select("#perceptwindowframe")
     .style("opacity", "0")
     .style("border-radius", "1rem")
     .style("z-index", (d, i) => { return 6 - i;})
-    .attr("src", (d) => { return "/truth/assets/img/perceptwindows" + d + ".jpg";});
+    .attr("src", (d) => { return "/assets/img/perceptwindows" + d + ".jpg";});
 
 d3.select("#perceptwindowframe")
     .selectAll("img").transition()

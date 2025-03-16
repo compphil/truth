@@ -20,7 +20,7 @@ var slides = d3.select("#argumentsoldiersframe")
     .style("opacity", "0")
     .style("border-radius", "1rem")
     .style("z-index", (d, i) => { return 6 - i;})
-    .attr("src", (d) => { return "/truth/assets/img/argumentsoldiers" + d + ".jpg";});
+    .attr("src", (d) => { return "/assets/img/argumentsoldiers" + d + ".jpg";});
 
 d3.select("#argumentsoldiersframe")
     .selectAll("img").transition()
